@@ -1,0 +1,25 @@
+name: L8D
+title: L8D
+description: A blog
+markdown: redcarpet
+pygments: true
+signoff: Don't die
+
+permalink: pretty
+links:
+  - name: Email
+    url: mailto:tenorbiel@gmail.com
+    external: true
+  - name: GitHub
+    url: http://github.com/L8D
+    external: true
+
+redcarpet:
+  extensions: [
+    strikethrough,
+    underline,
+    highlight,
+    footnotes,
+    superscript,
+    autolink
+  ]
