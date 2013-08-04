@@ -15,10 +15,12 @@ links:
     external: true
 
 redcarpet:
-  extensions:
-    - strikethrough
-    - underline
-    - highlight
-    - footnotes
-    - superscript
-    - autolink
+  extensions: [
+    strikethrough,
+    underline,
+    highlight,
+    footnotes,
+    superscript,
+    autolink,
+    fenced_code_blocks
+  ]
