@@ -63,7 +63,7 @@ There's nothing that is setting up an array for that, so we would need another f
 
 ```c
 int fibc(int n) {
-  int *c = calloc((n + 1), sizeof *c);
+  int *c = calloc(n + 1, sizeof *c);
 
   c[1] = 1;
 
@@ -94,7 +94,7 @@ big fib(big n, big *c) {
 }
 
 big fibc(int n) {
-  big *c = calloc((n + 1), sizeof *c);
+  big *c = calloc(n + 1, sizeof *c);
 
   c[1] = 1;
 
