@@ -323,6 +323,9 @@ pre {
 
 code {
   font-size: 13px;
+  font-family: Monaco, "Droid Sans Mono", "Ubuntu Mono", "Source Code Pro" Consolas, "Liberation Mono", monospace;
+  font-weight: 600;
+  line-height: 18px;
   color: #888;
   background: #f9f9f9;
   padding: 0 4px; }
