@@ -7,9 +7,7 @@ date: 2013-08-25 2:00 PM
 Basic and lazy fibonacci in CoffeeScript.
 
 ```coffeescript
-fib = (n) ->
-  return n if n < 2
-  fib(n - 1) + fib n - 2
+fib = (n) -> n if n < 2 else fib(n - 1) + fib n - 2
 ```
 
 Fibonacci that uses a cache. Much faster.
