@@ -70,7 +70,7 @@ int fibc(int n) {
 
   c[1] = 1;
 
-  return fib(n, c); 
+  return fib(n, c);
 }
 ```
 
@@ -91,18 +91,18 @@ Here is the resulting code.
 typedef unsigned long long big;
 
 big fib(big n, big *c) {
-    if(!c[n] && n != 0) {
-        c[n] = fib(n - 1, c) + fib(n - 2, c);
-    }
-    return c[n];
+  if(!c[n] && n != 0) {
+    c[n] = fib(n - 1, c) + fib(n - 2, c);
+  }
+  return c[n];
 }
 
 big fibc(int n) {
-    big *c = calloc((n + 1), sizeof *c);
-    
-    c[1] = 1;
-    
-    return fib(n, c);
+  big *c = calloc((n + 1), sizeof *c);
+
+  c[1] = 1;
+
+  return fib(n, c);
 }
 ```
 
