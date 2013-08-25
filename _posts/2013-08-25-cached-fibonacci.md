@@ -54,9 +54,8 @@ Here's some similar looking C code:
 
 ```c
 int fib(int n, int *c) {
-  if(!c[n] && n != 0) {
+  if(!c[n] && n != 0)
     c[n] = fib(n - 1, c) + fib(n - 2, c);
-  }
   return c[n];
 }
 ```
@@ -91,9 +90,8 @@ Here is the resulting code.
 typedef unsigned long long big;
 
 big fib(big n, big *c) {
-  if(!c[n] && n != 0) {
+  if(!c[n] && n != 0)
     c[n] = fib(n - 1, c) + fib(n - 2, c);
-  }
   return c[n];
 }
 
