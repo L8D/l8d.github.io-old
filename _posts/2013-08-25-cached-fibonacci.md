@@ -4,7 +4,7 @@ title: "Cached Fibonacci"
 date: 2013-08-25 2:00 PM
 ---
 
-Basic and lazy fibonacci.
+Basic and lazy fibonacci in CoffeeScript.
 
 ```coffeescript
 fib = (n) ->
