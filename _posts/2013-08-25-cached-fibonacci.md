@@ -67,7 +67,9 @@ int fibc(int n) {
 
   c[1] = 1;
 
-  return fib(n, c);
+  int r = fib(n, c);
+  free(c);
+  return r;
 }
 ```
 
@@ -95,10 +97,11 @@ big fib(big n, big *c) {
 
 big fibc(int n) {
   big *c = calloc(n + 1, sizeof *c);
-
   c[1] = 1;
 
-  return fib(n, c);
+  big r = fib(n, c);
+  free(c);
+  return r;
 }
 ```
 
