@@ -110,3 +110,5 @@ It's *really* fast.
 ```c
 fibc(100); // 3736710778780434371
 ```
+
+See the project on GitHub: [L8D/fastfib](https://github.com/L8D/fastgib)
