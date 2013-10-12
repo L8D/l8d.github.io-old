@@ -1,17 +1,30 @@
-<html>
-  <head>
-    <meta content='{{ site.title }}' property='og:title' />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{{ site.title }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div id='container'>
-      {% include links.html %}
-      <div class="content">
-        {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}
-  </body>
+
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+
+<body>
+
+<article>
+
+<h2>{{ site.title }}</h2>
+{{ content }}
+
+</article>
+
+{% include footer.html %}
+
+</body>
+
 </html>
