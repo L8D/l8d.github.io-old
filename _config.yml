@@ -1,23 +1,14 @@
 name: L8D
 title: L8D
+author: Tenor Biel
 description: A blog
 url: http://l8d.github.io/
 markdown: redcarpet
-pygments: true
-signoff: Don't die
-permalink: pretty
-timezone: America/Chicago
-
-links:
-  - name: Email
-    url: mailto:tenorbiel@gmail.com
-    external: true
-  - name: GitHub
-    url: http://github.com/L8D
-    external: true
+pygments: false
 
 redcarpet:
   extensions: [
+    tables,
     strikethrough,
     underline,
     highlight,
