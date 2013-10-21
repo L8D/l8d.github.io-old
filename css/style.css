@@ -1,10 +1,29 @@
 /*------------------------------------*\
-  RESET
+    RESET
 \*------------------------------------*/
-body, div, dl, dt, dd, ul, ol, li,
-h1, h2, h3, h4, h5, h6,
-pre, form, fieldset, input, textarea,
-p, blockquote, th, td {
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
     margin: 0;
     padding: 0;
 }
@@ -12,159 +31,181 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-fieldset, img {
+fieldset,
+img {
     border: 0;
 }
-address, caption, cite, dfn, th, var {
+address,
+caption,
+cite,
+dfn,
+th,
+var {
     font-style: normal;
     font-weight: normal;
 }
-caption, th {
+caption,
+th {
     text-align: left;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 100%;
     font-weight: normal;
 }
-q:before, q:after {
+q:before,
+q:after {
     content: '';
 }
-abbr, acronym {
+abbr,
+acronym {
     border: 0;
 }
-
-
 /*------------------------------------*\
-  MAIN
+    MAIN
 \*------------------------------------*/
 html {
     font-family: Cambria, Georgia, "Times New Roman", Times, serif;
-    background: #fff;
+    background: #f9f9f7;
     color: #333;
 }
-
 body {
+    /* grid system */
+
     max-width: 460px;
+    padding: 0 10px;
     margin: 0 auto;
     line-height: 1.5em;
-    padding-top: 72px;
-    padding-bottom: 72px;
-
     text-align: justify;
 }
-
-/*------------------------------------*\
-  TYPE
-\*------------------------------------*/
-/*--- HEADINGS ---*/
-
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 24px;
-    font-weight: bold;
+/*--- ARTICLE ---*/
+article {
+    padding-top: 48px; /* 24 * 3 - 24 */
 }
-
-h1 {
-    font-size: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
-    line-height: 1em; /* 24px --> 24 ÷ 24 = 1 */
-}
-
-h2 {
-    font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
-    line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
-}
-
-h3 {
-    font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
-    line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
-}
-
-h4 {
-    font-size: 1.125em; /* 18px --> 18 ÷ 16 = 1.125 */
-    line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
-}
-
-h5, h6 {
-    font-size: 1em; /* 16px --> 16 ÷ 16 = 1 */
-    line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
-}
-
-/*--- PARAGRAPHS ---*/
-
+/*--- PARAGRAPHS --*/
 p {
     margin-bottom: 24px;
 }
+p + p {
+    text-indent: 1em;
+    margin-top: -24px;
+}
+/*--- HEADINGS ---*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.5em;
+    /* 24px --> 24 ÷ 16 = 1.5 */
 
+    line-height: 1em;
+    /* 24px --> 24 ÷ 24 = 1 */
+
+}
+h2 {
+    font-size: 1.375em;
+    /* 22px --> 22 ÷ 16 = 1.375 */
+
+    line-height: 1.0909em;
+    /* 24px --> 24 ÷ 22 = 1.090909(09) */
+
+}
+h3 {
+    font-size: 1.25em;
+    /* 20px --> 20 ÷ 16 = 1.25 */
+
+    line-height: 1.2em;
+    /* 24px --> 24 ÷ 20 = 1.2 */
+
+}
+h4 {
+    font-size: 1.125em;
+    /* 18px --> 18 ÷ 16 = 1.125 */
+
+    line-height: 1.333em;
+    /* 24px --> 24 ÷ 18 = 1.3333333(3) */
+
+}
+h5,
+h6 {
+    font-size: 1em;
+    /* 16px --> 16 ÷ 16 = 1 */
+
+    line-height: 1.5em;
+    /* 24px --> 24 ÷ 16 = 1.5 */
+
+}
 /*--- LISTS ---*/
-ul, ol {
+ul,
+ol {
     margin-bottom: 24px;
 }
-
 ul {
     list-style: disc outside;
 }
-
 ul ul,
 ol ol {
     margin: 0 0 0 60px;
 }
-
-/*--- QUOTES ---*/
+/*--- QUOTES --*/
 blockquote {
     margin: 0 60px 0 45px;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #000;
     padding-left: 10px;
     text-indent: -0.4em;
+    margin-bottom: 24px;
 }
-
 blockquote b {
     display: block;
     text-indent: 0;
 }
-
 /*--- LINKS ---*/
 a {
     color: #09f;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 a:active,
 a:focus {
     position: relative;
     top: 1px;
 }
-
 /*--- CODE ---*/
+pre {
+    background: #eee;
+}
 pre code {
     line-height: 1.333em;
     margin-bottom: 24px;
 }
-
 code {
     font-family: Monaco, Consolas, "Liberation Mono", Courier, monospace;
     font-size: 0.9em;
-    background: #fafafa;
+    background: #eee;
 }
-
-/*--- IMAGES ---*/
-img {
-    max-width: 100%;
-}
-
 /*--- TABLES ---*/
 table {
     width: 100%;
 }
-
 table th {
     border-bottom: 1px #333 solid;
 }
-
 /*--- OTHER ---*/
 hr {
-    border: none;
-    border-bottom: 1px #333 solid;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 0;
+    border-bottom: 1px solid #333;
 }

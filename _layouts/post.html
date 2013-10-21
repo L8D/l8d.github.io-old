@@ -28,7 +28,10 @@
 {% include footer.html %}
 
 <script src="/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    hljs.initHighlightingOnLoad();
+    document.body.innerHTML = document.body.innerHTML.replace(/'/g, '&rsquo;');
+</script>
 
 </body>
 </html>
