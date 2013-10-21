@@ -6,7 +6,7 @@ date: 2013-10-21 2:14 AM
 
 January 4th, 2013, was the first day of real public school I ever had. Until
 then I was either homeschooled, in a short-term private school, or in
-kindergarten for my acedemia. That first day felt almost like a first day of
+kindergarten for my academia. That first day felt almost like a first day of
 school, and I can imagine anyone understanding why. On that first day, I met
 a lot of people, and on that day I learned a lot about them too. I honestly
 didn't know what to expect from 13 year olds.
@@ -15,7 +15,7 @@ During my days in homeschool I only got to meet other homeschoolers, and still
 not that many of them. In retrospect, these &lsquo;homerschoolers&rsquo; seemed
 to be&mdash; to put it bluntly &mdash;smarter than the students I met at public
 schools. However, most of them were very close-minded, sheltered, and living
-under the overprotection of their highly Christian parents.
+under the over-protection of their highly Christian parents.
 
 Some time long ago my parents allowed me to use a computer(and most notably,
 the internet) freely. From there I got to experience a lot of things about the
@@ -34,7 +34,7 @@ for the work I did in school. But what I just said isn't really important.
 Because I spent long periods of time at my desk, at my computer, I would get
 bored. I was bored to the point where I didn't want to walk away from my desk,
 as I still had work to do, but I didn't want to do the work. Thus,
-procrastination occured. Instead of visiting websites and stuff though, I
+procrastination occurred. Instead of visiting websites and stuff though, I
 decided I wanted to try and make my experience in using the computer better.
 I'm not entirely sure where it went from there, but I do know I somehow ended
 up downloading XCode and learning C via
@@ -71,9 +71,9 @@ job, and I know a lot about computers. My Rubik's cube and notebook full of
 Closure and Haskell that I wrote in or solved to pass the time called
 everyone's attention to me. I hated it.
 
-There was this one possy of students who called me a: &ldquo;proligy.&rdquo; No
-typos there. These kids knew the correct pronounciation of the word and
-purposely mispoke it just to have that meaning that they were less educated
+There was this one posse of students who called me a: &ldquo;proligy.&rdquo; No
+typos there. These kids knew the correct pronunciation of the word and
+purposely misspoke it just to have that meaning that they were less educated
 than me. I made no intentional efforts to stand out, to prove myself smarter
 than the other students, or to intimidate other students.
 
@@ -104,7 +104,7 @@ remember me from the 8th grade know who I really am, and I'm happy(except this
 stupid Computer Science class prerequisite I have to take). I'm still doing contract
 jobs on oDesk with my employers knowing nothing about my age, however my hours
 are largely cut back because I have school. And GitHub still doesn't let me
-override pygments do now my code blocks look like utter crap.
+override pygments so now my code blocks look like utter crap.
 
 ```javascript
 function Context(scope, parent) {
