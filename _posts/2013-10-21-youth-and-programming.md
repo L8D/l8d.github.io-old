@@ -42,7 +42,7 @@ up downloading XCode and learning C via
 
 Eventually through the two grades of middle school that I attended virtually, I
 picked up on a decent amount of things about computers. I
-[got into linux](http://www.reddit.com/r/unixporn/search?q=author%3AL8D&sort=new&restrict_sr=on), I picked up on dozens of languages, I even started learning
+[got into GNU/Linux](http://www.reddit.com/r/unixporn/search?q=author%3AL8D&sort=new&restrict_sr=on), I picked up on dozens of languages, I even started learning
 some X86 Assembly. Then September 2012 had to roll around and mess stuff up.
 
 Basically, my family had to move across a few states back to where we lived
